@@ -1,0 +1,28 @@
+#footerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1a1a1a;
+  height: 4em;
+  border: rgb(80, 80, 80) outset 2px;
+  bottom: 0;
+}
+
+#footerContainer a {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.FakeButtonsContainer {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+
+#LightDarkLogo {
+  border-radius: 50%;
+  height: 25px;
+  height: 25px;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+#AboutImgContainer {
+  position: relative;
+}
+
+#AboutImgContainer #MyImg {
+  border: rgb(80, 80, 80) inset 2px !important;
+  width: 99.8% !important;
+  height: auto !important;
+  margin-bottom: 30px !important;
+}
+
+#AboutImgContainer .image-h1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 5vw;
+}
+
+#AboutImgContainer .image-h3 {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 1.25vw;
+}
+
+#AboutImgContainer .image-p {
+  width: 450px;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 1vw;
+}

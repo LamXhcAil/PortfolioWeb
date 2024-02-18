@@ -1,0 +1,33 @@
+#worksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: auto;
+  width: 95%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.workPreview {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.workImg {
+  height: 75%;
+  border: rgb(80, 80, 80) inset 2px;
+}
+
+.descriptionDev {
+  height: 25%;
+}
+
+.descriptionDev h4,
+.descriptionDev p {
+  margin: 5px;
+}

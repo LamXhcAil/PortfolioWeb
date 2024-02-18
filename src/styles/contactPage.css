@@ -1,0 +1,76 @@
+#mainDiv {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#messageInput {
+  width: 100%;
+  height: 125px;
+}
+
+.buttonContainer {
+  grid-column: span 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.inputsDisc {
+  display: block;
+  font-weight: lighter;
+}
+
+#mainH2 {
+  font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+  #mainDiv {
+    width: 90%;
+  }
+}
+
+#ContactImgContainer #MyImg {
+  border: rgb(80, 80, 80) inset 2px !important;
+  width: 99.8% !important;
+  height: auto !important;
+  margin-bottom: 30px !important;
+}
+
+#ContactImgContainer .image-h1 {
+  position: absolute;
+  top: 17.5%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 5vw;
+}
+
+#ContactImgContainer .image-h3 {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 1.25vw;
+}
+
+.socialPlat {
+  width: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  top: 40%;
+  left: 17.5%;
+  font-size: 1vw;
+}
